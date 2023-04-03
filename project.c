@@ -9,10 +9,11 @@ int main()
     printf("> Press 7 for start the game\n");
     printf("> Press 0 for end the game\n\n");
     scanf("%d", &i);
+    printf("\nLet's begin the game\n\n");
 
     if (i == 7)
     {
-        printf("\nLet's begin the game\n\n");
+        
         printf("1. Who is the current Prime Minister of India ?\n");
         printf("  i. Sardar Ballav Vai Pattel\n");
         printf(" ii. Rahl Ghandhi\n");
@@ -34,7 +35,6 @@ int main()
         }
         printf("\n");
 
-        printf("\nLet's begin the game\n");
         printf("2. Who is the Chief Minister of West Bengal ?\n");
         printf("  i. Mamta Banerjee\n");
         printf(" ii. Dev Adhikary\n");
@@ -55,8 +55,6 @@ int main()
             printf("Your score = %d", point2);
         }
         printf("\n");
-
-        printf("\nLet's begin the game\n");
         printf("3. What is the full form of RAM ?\n");
         printf("  i. Random Access Memory\n");
         printf(" ii. Read Only Memory\n");
@@ -77,8 +75,7 @@ int main()
             printf("Your score = %d", point3);
         }
         printf("\n");
-
-        printf("\nLet's begin the game\n");
+        
         printf("4. Who is Rabindra Nath Tagore ?\n");
         printf("  i. Writer\n");
         printf(" ii. player\n");
@@ -99,8 +96,6 @@ int main()
             printf("Your score = %d", point4);
         }
         printf("\n");
-
-        printf("\nLet's begin the game\n");
         printf("5. What is the National animal of india ?\n");
         printf("  i. Tiger\n");
         printf(" ii. Lion\n");
@@ -109,7 +104,7 @@ int main()
         printf("> Answer : ");
         scanf("%d", &ans5);
 
-        if (ans5 == 3)
+        if (ans5 == 1)
         {
             point5 = point4 + 5;
             printf("Congratulation ! Your score = %d\n", point5);
